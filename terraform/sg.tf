@@ -34,6 +34,6 @@ resource "aws_security_group" "web" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "allow_http_https_ssh"
   }
 }
